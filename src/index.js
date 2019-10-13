@@ -16,9 +16,10 @@ const port = process.env.PORT || 3000
 //     }
 // })
 
-app.use( (req, res, next) => {
-   res.status(503).send('Site is currenlty down. Check back soon!')
-})
+// app.use( (req, res, next) => {
+//    res.status(503).send('Site is currenlty down. Check back soon!')
+// })
+
 
 
 app.use(express.json())
