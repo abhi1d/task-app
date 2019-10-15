@@ -33,21 +33,3 @@ app.listen(port, () => {
 
 
 
-// const main = async () => {
-//     try {
-//         // const task = await Task.findById('5da40a026f6d4e311cec8712')
-//         // await task.populate('owner').execPopulate()
-//         // console.log(task.owner)
-
-//         const user = await User.findById('5da380ac7fef072a703087cd')
-//         await user.populate('tasks').execPopulate()
-//         console.log(user.tasks)
-
-
-//     } catch (error) {
-//         console.log(error)
-//     }
-
-// }
-
-// main()
